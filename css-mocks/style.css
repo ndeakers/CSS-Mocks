@@ -81,7 +81,8 @@ body {
   right: 0px;
 }
 */
-/* part solution 3*/
+/* part solution 3
+
 body {
   margin: 0;
   border: 5px solid black;
@@ -121,4 +122,90 @@ body {
   display: inline-block;
   position: relative;
   top: 100px;
+} */
+
+/* Part 4 solution 
+body {
+  margin: 0;
+  border: 5px solid black;
+  height: 100vh;
+  position: relative;
+  box-sizing: border-box;
 }
+
+.one {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.two {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.three {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: relative;
+  left: -100px;
+  top: -100px;
+}
+
+.four {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(23, 23, 250);
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+} */
+ /*Part 5 solution
+body {
+  margin: 0;
+  border: 5px solid black;
+  height: 100vh;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.one {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  box-sizing: border-box;
+}
+
+.two {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.three {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: relative;
+  bottom: 200px;
+}
+
+.four {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(23, 23, 250);
+  position: relative;
+  top: -233%;
+  left: -804%;
+}
+*/
