@@ -1,14 +1,64 @@
+
+/* Part 1 Solution 
 body {
   margin: 0;
   border: 5px solid black;
   height: 100vh;
   position: relative;
+  box-sizing: border-box;
 }
 
 .one {
   width: 400px;
   height: 400px;
   background-color: red;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.two {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.three {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.four {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+/*
+
+/* Part 2 solution */ 
+/*
+body {
+  margin: 0;
+  border: 5px solid black;
+  height: 100vh;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.one {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  box-sizing: border-box;
 }
 
 .two {
@@ -27,4 +77,48 @@ body {
   width: 100px;
   height: 100px;
   background-color: blue;
+  position: absolute;
+  right: 0px;
+}
+*/
+/* part solution 3*/
+body {
+  margin: 0;
+  border: 5px solid black;
+  height: 100vh;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.one {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.two {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+}
+
+.three {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  display: inline-block;
+  position: relative;
+  left: 400px;
+  top: 200px;
+}
+
+.four {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  display: inline-block;
+  position: relative;
+  top: 100px;
 }
